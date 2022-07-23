@@ -57,5 +57,13 @@ data_4 <- data_3%>%
      )
    )
  
-Data_7 <-  
+Data_7 <- data.frame(
+  row.names = c('Ford Mustang','Toyota Camry','Tesla Model S', 'BMW M3', 'Dodge Charger', 'Honda Civic')
+)
+
+Data_8 <- Data_7%>%
+  mutate(
+    Price = c(25000, 20000, 100000, 60000, 30000, 20000)
+  )
+
  
