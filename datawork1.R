@@ -63,7 +63,13 @@ Data_7 <- data.frame(
 
 Data_8 <- Data_7%>%
   mutate(
-    Price = c(25000, 20000, 100000, 60000, 30000, 20000)
+    Year = c(2020, 2021, 2022, 2017, 2021, 2016),
+    Condition = c('Good', 'Like New', 'New', 'Fair', 'Good', 'Fair'),
+    Price = c(25000, 20000, 100000, 60000, 30000, 10000),
+    Mileage = c(40000, 13000, 5000, 75000, 10000, 95000),
+    Color = c('Black','Silver','Red', 'Blue', 'Black', 'White')
+    
   )
+
 
  
