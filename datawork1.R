@@ -71,5 +71,11 @@ Data_8 <- Data_7%>%
     
   )
 
+Data_9 <- Data_8 %>%
+  mutate(
+    Location = c('Atlanta', 'New York', 'Dallas', 'Los Angeles', 'San Francisco', 'Miami') 
+  )
+  
+
 
  
